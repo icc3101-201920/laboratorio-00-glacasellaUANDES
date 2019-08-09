@@ -21,14 +21,14 @@ namespace Lab2_glacasella.Board
         public Board() { }
 
         // Getters y setters
-        public List<CombatCard>[] MeleeCards { get => meleeCards; set => meleeCards = value; }
-        public List<CombatCard>[] RangeCards { get => rangeCards; set => rangeCards = value; }
-        public List<CombatCard>[] LongRangeCards { get => longRangeCards; set => longRangeCards = value; }
-        public SpecialCard[] SpecialMeleeCards { get => specialMeleeCards; set => specialMeleeCards = value; }
-        public SpecialCard[] SpecialRangeCards { get => specialRangeCards; set => specialRangeCards = value; }
-        public SpecialCard[] SpecialLongRangeCards { get => specialLongRangeCards; set => specialLongRangeCards = value; }
-        public List<SpecialCard> CaptainCards { get => captainCards; set => captainCards = value; }
-        public List<SpecialCard> WeatherCards { get => weatherCards; set => weatherCards = value; }
+        public List<CombatCard>[] MeleeCards { get => meleeCards;}
+        public List<CombatCard>[] RangeCards { get => rangeCards;}
+        public List<CombatCard>[] LongRangeCards { get => longRangeCards;}
+        public SpecialCard[] SpecialMeleeCards { get => specialMeleeCards;}
+        public SpecialCard[] SpecialRangeCards { get => specialRangeCards;}
+        public SpecialCard[] SpecialLongRangeCards { get => specialLongRangeCards;}
+        public List<SpecialCard> CaptainCards { get => captainCards;}
+        public List<SpecialCard> WeatherCards { get => weatherCards;}
 
         // Metodos 
 
