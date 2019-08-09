@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Card;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Lab2_glacasella.Deck
+namespace Card
 {
     class Deck
     {

@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Lab2_glacasella.Hand
+namespace Card
 {
     class Hand
     {
         // Atributos
         private List<CombatCard> combatCards;
-        private List<SpecialCards> specialCards;
+        private List<SpecialCard> specialCards;
 
         // Constructor
 
@@ -17,7 +17,7 @@ namespace Lab2_glacasella.Hand
         // getters y setters
 
         public List<CombatCard> CombatCards { get => combatCards; set => combatCards = value; }
-        public List<SpecialCards> SpecialCards { get => specialCards; set => specialCards = value; }
+        public List<SpecialCard> SpecialCards { get => specialCards; set => specialCards = value; }
 
         // Metodos
 
